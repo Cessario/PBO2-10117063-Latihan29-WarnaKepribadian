@@ -35,10 +35,7 @@ public class PBO210117063Latihan29WarnaKepribadian {
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
     
     public static void Hasiltest(String wrnMu){
-        /*
-            -membuat variabel baru
-            -mencegah perbedaan huruf kapital dengan huruf kecil saat input
-        */
+     
         String warna = wrnMu.toUpperCase(); 
         
         System.out.print("Warna Favoritmu adalah");
